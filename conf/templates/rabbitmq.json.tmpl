@@ -1,0 +1,9 @@
+{
+  "rabbitmq": {
+    "port": {{ getenv "RABBITMQ_PORT" }},
+    "host": "{{ getenv "RABBITMQ_HOST" }}",
+    "user": "{{ getenv "RABBITMQ_USER" }}",
+    "password": "{{ getenv "RABBITMQ_PASS" }}",
+    "vhost": "{{ getenv "RABBITMQ_VHOST" }}"
+  }
+}
